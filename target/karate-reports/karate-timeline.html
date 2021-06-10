@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-2","id":1},{"content":"pool-1-thread-5","id":2},{"content":"pool-1-thread-4","id":3},{"content":"pool-1-thread-3","id":4},{"content":"pool-1-thread-1","id":5}];
+var items = [{"id":1,"group":1,"content":"Assignment\/Features\/project[1:7]","start":1623296149037,"end":1623296150177,"title":"Assignment\/Features\/project[1:7] 09:05:49.037-09:05:50.177 get all project","className":"failed"},{"id":2,"group":2,"content":"Assignment\/Features\/project[2:13]","start":1623296149056,"end":1623296150145,"title":"Assignment\/Features\/project[2:13] 09:05:49.056-09:05:50.145 create a project","className":"failed"},{"id":3,"group":3,"content":"Assignment\/Features\/project[3:28]","start":1623296149065,"end":1623296150143,"title":"Assignment\/Features\/project[3:28] 09:05:49.065-09:05:50.143 getting asingle project"},{"id":4,"group":4,"content":"Assignment\/Features\/project[4:33]","start":1623296149065,"end":1623296150205,"title":"Assignment\/Features\/project[4:33] 09:05:49.065-09:05:50.205 creating a project when limited is completd"},{"id":5,"group":3,"content":"Assignment\/Features\/task[1:7]","start":1623296150160,"end":1623296151065,"title":"Assignment\/Features\/task[1:7] 09:05:50.160-09:05:51.065 get all tasks"},{"id":6,"group":5,"content":"Assignment\/Features\/task[2:12]","start":1623296150157,"end":1623296150914,"title":"Assignment\/Features\/task[2:12] 09:05:50.157-09:05:50.914 create a new task"},{"id":7,"group":2,"content":"Assignment\/Features\/task[3:34]","start":1623296150155,"end":1623296150913,"title":"Assignment\/Features\/task[3:34] 09:05:50.155-09:05:50.913 getting individual task","className":"failed"},{"id":8,"group":1,"content":"Assignment\/Features\/task[4:41]","start":1623296150195,"end":1623296151050,"title":"Assignment\/Features\/task[4:41] 09:05:50.195-09:05:51.050 Updating a task","className":"failed"},{"id":9,"group":4,"content":"Assignment\/Features\/task[5:53]","start":1623296150211,"end":1623296151158,"title":"Assignment\/Features\/task[5:53] 09:05:50.211-09:05:51.158 deleting a task"},{"id":10,"group":2,"content":"Assignment\/Features\/task[6:59]","start":1623296150918,"end":1623296152397,"title":"Assignment\/Features\/task[6:59] 09:05:50.918-09:05:52.397 getting a deletd task","className":"failed"},{"id":11,"group":5,"content":"Assignment\/Features\/Section[1:7]","start":1623296147194,"end":1623296149027,"title":"Assignment\/Features\/Section[1:7] 09:05:47.194-09:05:49.027 getting all sections"},{"id":12,"group":1,"content":"Assignment\/Features\/Section[2:13]","start":1623296147194,"end":1623296149028,"title":"Assignment\/Features\/Section[2:13] 09:05:47.194-09:05:49.028 getting a individual secttion","className":"failed"},{"id":13,"group":4,"content":"Assignment\/Features\/Section[3:19]","start":1623296147194,"end":1623296149049,"title":"Assignment\/Features\/Section[3:19] 09:05:47.194-09:05:49.049 getting a section with wrong section id","className":"failed"},{"id":14,"group":3,"content":"Assignment\/Features\/Section[4:25]","start":1623296147194,"end":1623296149048,"title":"Assignment\/Features\/Section[4:25] 09:05:47.194-09:05:49.048 creating a section"},{"id":15,"group":2,"content":"Assignment\/Features\/Section[5:38]","start":1623296147194,"end":1623296149042,"title":"Assignment\/Features\/Section[5:38] 09:05:47.194-09:05:49.042 deleting a section"},{"id":16,"group":5,"content":"Assignment\/Features\/Section[6:44]","start":1623296149053,"end":1623296150143,"title":"Assignment\/Features\/Section[6:44] 09:05:49.053-09:05:50.143 deleting already deleted section","className":"failed"},{"id":17,"group":5,"content":"Assignment\/users\/users[1:7]","start":1623296150929,"end":1623296151499,"title":"Assignment\/users\/users[1:7] 09:05:50.929-09:05:51.499 get all users and then get the first user by id"},{"id":18,"group":1,"content":"Assignment\/users\/users[2:18]","start":1623296151067,"end":1623296152401,"title":"Assignment\/users\/users[2:18] 09:05:51.067-09:05:52.401 create a user and then get it by id"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

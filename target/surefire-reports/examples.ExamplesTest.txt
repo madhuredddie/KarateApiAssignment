@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+Test set: examples.ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.048 s <<< FAILURE! - in examples.ExamplesTest
+testParallel  Time elapsed: 7.042 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Content-Type'
+
+classpath:Assignment/Features/project.feature:11
+status code was: 400, expected: 200, response time in milliseconds: 1059, url: https://api.todoist.com/rest/v1/projects, response: 
+Maximum number of projects per user limit reached
+
+classpath:Assignment/Features/project.feature:22
+status code was: 404, expected: 200, response time in milliseconds: 732, url: https://api.todoist.com/rest/v1/tasks/4896808301, response: 
+Not Found
+
+classpath:Assignment/Features/task.feature:37
+status code was: 400, expected: 204, response time in milliseconds: 835, url: https://api.todoist.com/rest/v1/tasks/4896808301, response: 
+Item not found
+
+classpath:Assignment/Features/task.feature:50
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Not Found
+'
+  'Empty Token'
+
+classpath:Assignment/Features/task.feature:63
+status code was: 404, expected: 200, response time in milliseconds: 1425, url: https://api.todoist.com/rest/v1/sections/51193534, response: 
+Not Found
+
+classpath:Assignment/Features/Section.feature:16
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  '404 page not found
+'
+  'Not Found'
+
+classpath:Assignment/Features/Section.feature:23
+status code was: 204, expected: 404, response time in milliseconds: 1071, url: https://api.todoist.com/rest/v1/sections/51193534, response: 
+
+classpath:Assignment/Features/Section.feature:47 ==> expected: <0> but was: <8>
+	at examples.ExamplesTest.testParallel(ExamplesTest.java:16)
+

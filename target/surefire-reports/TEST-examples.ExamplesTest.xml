@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="examples.ExamplesTest" time="7.048" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/masrg/Documents/karate/karateAssignment/target/test-classes:/home/masrg/Documents/karate/karateAssignment/target/classes:/home/masrg/.m2/repository/com/intuit/karate/karate-junit5/1.0.1/karate-junit5-1.0.1.jar:/home/masrg/.m2/repository/com/intuit/karate/karate-core/1.0.1/karate-core-1.0.1.jar:/home/masrg/.m2/repository/org/graalvm/js/js-scriptengine/21.0.0/js-scriptengine-21.0.0.jar:/home/masrg/.m2/repository/org/graalvm/sdk/graal-sdk/21.0.0/graal-sdk-21.0.0.jar:/home/masrg/.m2/repository/org/graalvm/js/js/21.0.0/js-21.0.0.jar:/home/masrg/.m2/repository/org/graalvm/regex/regex/21.0.0/regex-21.0.0.jar:/home/masrg/.m2/repository/org/graalvm/truffle/truffle-api/21.0.0/truffle-api-21.0.0.jar:/home/masrg/.m2/repository/com/ibm/icu/icu4j/67.1/icu4j-67.1.jar:/home/masrg/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/masrg/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/masrg/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/masrg/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/home/masrg/.m2/repository/com/jayway/jsonpath/json-path/2.5.0/json-path-2.5.0.jar:/home/masrg/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/masrg/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/masrg/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/masrg/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/masrg/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/masrg/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/home/masrg/.m2/repository/de/siegmar/fastcsv/1.0.4/fastcsv-1.0.4.jar:/home/masrg/.m2/repository/info/picocli/picocli/4.5.2/picocli-4.5.2.jar:/home/masrg/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/masrg/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/masrg/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/masrg/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/masrg/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/masrg/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-11.0.10/lib"/>
+    <property name="sun.java.command" value="/home/masrg/Documents/karate/karateAssignment/target/surefire/surefirebooter17037800627613498796.jar /home/masrg/Documents/karate/karateAssignment/target/surefire 2021-06-10T09-05-45_013-jvmRun1 surefire4440782092133231445tmp surefire_012518390651129681720tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/masrg/Documents/karate/karateAssignment/target/test-classes:/home/masrg/Documents/karate/karateAssignment/target/classes:/home/masrg/.m2/repository/com/intuit/karate/karate-junit5/1.0.1/karate-junit5-1.0.1.jar:/home/masrg/.m2/repository/com/intuit/karate/karate-core/1.0.1/karate-core-1.0.1.jar:/home/masrg/.m2/repository/org/graalvm/js/js-scriptengine/21.0.0/js-scriptengine-21.0.0.jar:/home/masrg/.m2/repository/org/graalvm/sdk/graal-sdk/21.0.0/graal-sdk-21.0.0.jar:/home/masrg/.m2/repository/org/graalvm/js/js/21.0.0/js-21.0.0.jar:/home/masrg/.m2/repository/org/graalvm/regex/regex/21.0.0/regex-21.0.0.jar:/home/masrg/.m2/repository/org/graalvm/truffle/truffle-api/21.0.0/truffle-api-21.0.0.jar:/home/masrg/.m2/repository/com/ibm/icu/icu4j/67.1/icu4j-67.1.jar:/home/masrg/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/masrg/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/masrg/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/masrg/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/home/masrg/.m2/repository/com/jayway/jsonpath/json-path/2.5.0/json-path-2.5.0.jar:/home/masrg/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/masrg/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/masrg/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/masrg/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/masrg/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/masrg/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/home/masrg/.m2/repository/de/siegmar/fastcsv/1.0.4/fastcsv-1.0.4.jar:/home/masrg/.m2/repository/info/picocli/picocli/4.5.2/picocli-4.5.2.jar:/home/masrg/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/masrg/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/masrg/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/masrg/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/masrg/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/masrg/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/masrg"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-11.0.10"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/masrg/Documents/karate/karateAssignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/masrg/Documents/karate/karateAssignment/target/surefire/surefirebooter17037800627613498796.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="user.name" value="masrg"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.8.0-53-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/home/masrg/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="/home/masrg/Documents/karate/karateAssignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="7.042">
+    <failure message="match failed: EQUALS&#10;  $ | actual path does not exist (STRING:STRING)&#10;  &apos;#notpresent&apos;&#10;  &apos;Content-Type&apos;&#10;&#10;classpath:Assignment/Features/project.feature:11&#10;status code was: 400, expected: 200, response time in milliseconds: 1059, url: https://api.todoist.com/rest/v1/projects, response: &#10;Maximum number of projects per user limit reached&#10;&#10;classpath:Assignment/Features/project.feature:22&#10;status code was: 404, expected: 200, response time in milliseconds: 732, url: https://api.todoist.com/rest/v1/tasks/4896808301, response: &#10;Not Found&#10;&#10;classpath:Assignment/Features/task.feature:37&#10;status code was: 400, expected: 204, response time in milliseconds: 835, url: https://api.todoist.com/rest/v1/tasks/4896808301, response: &#10;Item not found&#10;&#10;classpath:Assignment/Features/task.feature:50&#10;match failed: EQUALS&#10;  $ | not equal (STRING:STRING)&#10;  &apos;Not Found&#10;&apos;&#10;  &apos;Empty Token&apos;&#10;&#10;classpath:Assignment/Features/task.feature:63&#10;status code was: 404, expected: 200, response time in milliseconds: 1425, url: https://api.todoist.com/rest/v1/sections/51193534, response: &#10;Not Found&#10;&#10;classpath:Assignment/Features/Section.feature:16&#10;match failed: EQUALS&#10;  $ | not equal (STRING:STRING)&#10;  &apos;404 page not found&#10;&apos;&#10;  &apos;Not Found&apos;&#10;&#10;classpath:Assignment/Features/Section.feature:23&#10;status code was: 204, expected: 404, response time in milliseconds: 1071, url: https://api.todoist.com/rest/v1/sections/51193534, response: &#10;&#10;classpath:Assignment/Features/Section.feature:47 ==&gt; expected: &lt;0&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Content-Type'
+
+classpath:Assignment/Features/project.feature:11
+status code was: 400, expected: 200, response time in milliseconds: 1059, url: https://api.todoist.com/rest/v1/projects, response: 
+Maximum number of projects per user limit reached
+
+classpath:Assignment/Features/project.feature:22
+status code was: 404, expected: 200, response time in milliseconds: 732, url: https://api.todoist.com/rest/v1/tasks/4896808301, response: 
+Not Found
+
+classpath:Assignment/Features/task.feature:37
+status code was: 400, expected: 204, response time in milliseconds: 835, url: https://api.todoist.com/rest/v1/tasks/4896808301, response: 
+Item not found
+
+classpath:Assignment/Features/task.feature:50
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Not Found
+'
+  'Empty Token'
+
+classpath:Assignment/Features/task.feature:63
+status code was: 404, expected: 200, response time in milliseconds: 1425, url: https://api.todoist.com/rest/v1/sections/51193534, response: 
+Not Found
+
+classpath:Assignment/Features/Section.feature:16
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  '404 page not found
+'
+  'Not Found'
+
+classpath:Assignment/Features/Section.feature:23
+status code was: 204, expected: 404, response time in milliseconds: 1071, url: https://api.todoist.com/rest/v1/sections/51193534, response: 
+
+classpath:Assignment/Features/Section.feature:47 ==> expected: <0> but was: <8>
+	at examples.ExamplesTest.testParallel(ExamplesTest.java:16)
+]]></failure>
+    <system-out><![CDATA[09:05:46.386 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:05:46.391 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1623296146391
+09:05:46.398 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+09:05:47.256 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:47.256 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:47.256 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:47.256 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:47.256 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:47.597 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api.todoist.com/rest/v1/section/50961803
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:47.597 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api.todoist.com/rest/v1/sections
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:47.597 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api.todoist.com/rest/v1/sections/51193534
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:47.597 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > DELETE https://api.todoist.com/rest/v1/sections/51193534
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:47.599 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://api.todoist.com/rest/v1/sections
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 46
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"project_id":2267092410,"name":"daily tasks"}
+
+09:05:49.025 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1425
+1 < 204
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:49 GMT
+1 < X-Cache: Miss from cloudfront
+1 < Via: 1.1 b72519ee5ed84e4e3db077b5b7e93d38.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: dOTZ7LKfESa3--njNifSK-N0lDyooh4WD1hWu-pxB5rFVKGLVoiiNA==
+
+09:05:49.025 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1425
+1 < 404
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 10
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:49 GMT
+1 < X-Content-Type-Options: nosniff
+1 < X-Cache: Error from cloudfront
+1 < Via: 1.1 8137b7c010eb34abe62bebb7e7ae88c7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: cjtJUnL2U7mPWyh-_mYnxxFNzpu9AB990HS79ccjmZ9w0cn3_MYIOA==
+Not Found
+
+09:05:49.025 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1425
+1 < 404
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 19
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:49 GMT
+1 < X-Content-Type-Options: nosniff
+1 < X-Cache: Error from cloudfront
+1 < Via: 1.1 10e8755e3b7b587e2495a5aadba65bc6.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: g86TuH0-2gHaE1vLQRNSaeEHmX4iSg46_yQPSVeMSDc-CGVNhLj3xQ==
+404 page not found
+
+09:05:49.025 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1423
+1 < 200
+1 < Content-Type: application/json
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:49 GMT
+1 < X-Cache: Miss from cloudfront
+1 < Via: 1.1 7adf2742bc569e00705d1ab8a610f8a9.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: 77KQm3B9aP3tyQEws3DQkjlhrOAUFP8pUU3htDwYNnaVSZ39NhIWrg==
+{"project_id":2267092410,"name":"daily tasks","id":51194647,"order":3}
+09:05:49.026 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1425
+1 < 200
+1 < Content-Type: application/json
+1 < Content-Length: 381
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:49 GMT
+1 < X-Cache: Miss from cloudfront
+1 < Via: 1.1 73965a3df6a91e968e55d2d6ab5113be.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: dFvFwk6UFBSBP7n8AYsQ5bOqmgslZFA2j9tAfpPiaoGbSgCIJkTHxg==
+[{"project_id":2267090232,"name":"Let\u2019s get started with a few tips","id":50796018,"order":1},{"project_id":2267090232,"name":"To go further","id":50796022,"order":2},{"project_id":2267090233,"name":"To do","id":50796020,"order":1},{"project_id":2267090233,"name":"Doing","id":50796021,"order":2}]
+09:05:49.029 [pool-1-thread-2] ERROR com.intuit.karate - classpath:Assignment/Features/Section.feature:16
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1425, url: https://api.todoist.com/rest/v1/sections/51193534, response: 
+Not Found
+
+classpath:Assignment/Features/Section.feature:16
+09:05:49.040 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:49.048 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api.todoist.com/rest/v1/projects
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:49.050 [pool-1-thread-3] ERROR com.intuit.karate - classpath:Assignment/Features/Section.feature:23
+Then match response =='Not Found'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  '404 page not found
+'
+  'Not Found'
+
+classpath:Assignment/Features/Section.feature:23
+09:05:49.056 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:49.065 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > DELETE https://api.todoist.com/rest/v1/sections/51193534
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:49.068 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:49.068 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:49.068 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:49.079 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://api.todoist.com/rest/v1/projects
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 18
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Eatbles"}
+
+09:05:49.079 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://api.todoist.com/rest/v1/projects/2267272990
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:49.080 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://api.todoist.com/rest/v1/projects
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Slepping"}
+
+09:05:50.139 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1071
+1 < 204
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:50 GMT
+1 < X-Cache: Miss from cloudfront
+1 < Via: 1.1 dc76840562be68c0220fc72e79c212b8.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: TSAkVAPqWaS_qifq6tpC8-yzjqRsS1hzvZTE1ERpFAiknAFcxeTdBg==
+
+09:05:50.139 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1059
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:50 GMT
+1 < X-Content-Type-Options: nosniff
+1 < X-Cache: Error from cloudfront
+1 < Via: 1.1 967d7d55f5e36dc1c4da4bb9378e4df7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: HWShKhpD7-srDkcHqgwJjRrFRjuja2g-xPz7Qr-p_q_tHAQjHnVbXQ==
+Maximum number of projects per user limit reached
+
+09:05:50.140 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1058
+1 < 200
+1 < Content-Type: application/json
+1 < Content-Length: 200
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:50 GMT
+1 < X-Cache: Miss from cloudfront
+1 < Via: 1.1 61c8e84cb23f6e3bff5da088063e4b27.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: FmL6sKrqZWAxDyw8eIgerC_xbEYLqix6anoe-hutUDyqYPy3a3gSgw==
+{"comment_count":0,"shared":false,"color":47,"name":"Eatbles","id":2267272990,"sync_id":0,"favorite":false,"url":"https:\/\/todoist.com\/showProject?id=2267272990","order":8}
+09:05:50.144 [pool-1-thread-1] ERROR com.intuit.karate - classpath:Assignment/Features/Section.feature:47
+Then status 404
+status code was: 204, expected: 404, response time in milliseconds: 1071, url: https://api.todoist.com/rest/v1/sections/51193534, response: 
+
+classpath:Assignment/Features/Section.feature:47
+09:05:50.144 [pool-1-thread-5] ERROR com.intuit.karate - classpath:Assignment/Features/project.feature:22
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 1059, url: https://api.todoist.com/rest/v1/projects, response: 
+Maximum number of projects per user limit reached
+
+classpath:Assignment/Features/project.feature:22
+09:05:50.150 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1098
+1 < 200
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Date: Thu, 10 Jun 2021 03:35:49 GMT
+1 < X-Cache: Miss from cloudfront
+1 < Via: 1.1 7adf2742bc569e00705d1ab8a610f8a9.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: eka1_QBD7zM6ia-MPu__zCDa5UX9_nuInn4XkPxzPY6s6lgXttc2DQ==
+[{"comment_count":0,"shared":false,"color":48,"name":"Inbox","id":2267090231,"inbox_project":true,"sync_id":0,"favorite":false,"url":"https:\/\/todoist.com\/showProject?id=2267090231"},{"comment_count":0,"shared":false,"color":48,"name":"Welcome 👋","id":2267090232,"sync_id":0,"favorite":false,"url":"https:\/\/todoist.com\/showProject?id=2267090232","order":1},{"comment_count":0,"shared":false,"color":48,"name":"Try Boards","id":2267090233,"sync_id":0,"favorite":false,"url":"https:\/\/todoist.com\/showProject?id=2267090233","order":2},{"comment_count":0,"shared":false,"color":47,"name":"Shopping List","id":2267092371,"sync_id":0,"favorite":false,"url":"https:\/\/todoist.com\/showProject?id=2267092371","order":4},{"comment_count":0,"shared":false,"color":47,"name":"Shopping List","id":2267092410,"sync_id":0,"favorite":false,"url":"https:\/\/todoist.com\/showProject?id=2267092410","order":5},{"comment_count":0,"shared":false,"color":47,"name":"sports","id":2267093060,"sync_id":0,"favorite":false,"url":"https:\/\/todoist.com\/showProject?id=2267093060","order":6},{"comment_count":0,"shared":false,"color":47,"name":"Games","id":2267105578,"sync_id":0,"favorite":false,"url":"https:\/\/todoist.com\/showProject?id=2267105578","order":7},{"comment_count":0,"shared":false,"color":47,"name":"Eatbles","id":2267272990,"sync_id":0,"favorite":false,"url":"https:\/\/todoist.com\/showProject?id=2267272990","order":8}]
+09:05:50.156 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:50.157 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:50.161 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:50.172 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://api.todoist.com/rest/v1/tasks
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 151
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"comment_count":0,"section_id":0,"project_id":2267090232,"parent_id":0,"description":"","completed":false,"priority":1,"content":"Buy Milk","order":1}
+
+09:05:50.177 [pool-1-thread-2] ERROR com.intuit.karate - classpath:Assignment/Features/project.feature:11
+Then match response.Headers == 'Content-Type'
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Content-Type'
+
+classpath:Assignment/Features/project.feature:11
+09:05:50.180 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://api.todoist.com/rest/v1/tasks/4896808301
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:50.181 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://api.todoist.com/rest/v1/tasks
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:50.196 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:50.204 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1123
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:50 GMT
+1 < X-Content-Type-Options: nosniff
+1 < X-Cache: Error from cloudfront
+1 < Via: 1.1 be3d7ac8ca6f264ed23d40684ed75b38.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: 7jYl1dM1kO4TIHIBT1KzUvBVf63EvuprueTvOUNU8LFFUoYON4-AAA==
+Maximum number of projects per user limit reached
+
+09:05:50.208 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://api.todoist.com/rest/v1/tasks/4896808301
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 27
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"content":"Buy groceries"}
+
+09:05:50.212 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:50.218 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > DELETE https://api.todoist.com/rest/v1/tasks/4896808301
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+---------------------------------------------------------
+feature: classpath:Assignment/Features/Section.feature
+scenarios:  6 | passed:  3 | failed:  3 | time: 9.7419
+---------------------------------------------------------
+
+09:05:50.821 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (3 remaining) classpath:Assignment/Features/Section.feature
+09:05:50.912 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 732
+1 < 404
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 10
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:51 GMT
+1 < X-Content-Type-Options: nosniff
+1 < X-Cache: Error from cloudfront
+1 < Via: 1.1 a54512dcc1a642557608accecd0a680b.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: 04FUYjGILuwxP89V8apaqLk1wmYIRAVmjz-R8dAYPj_nvc05km16lA==
+Not Found
+
+09:05:50.913 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 739
+1 < 200
+1 < Content-Type: application/json
+1 < Content-Length: 328
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:51 GMT
+1 < X-Cache: Miss from cloudfront
+1 < Via: 1.1 967d7d55f5e36dc1c4da4bb9378e4df7.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: InHYg4fBw-IVzVBPc7N3o0j9HFgvz1tfMZysijKON8RiyBFVbnTA5g==
+{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-10T03:35:51Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Buy Milk","url":"https:\/\/todoist.com\/showTask?id=4898958949","section_id":0,"project_id":2267090232,"id":4898958949,"order":1}
+09:05:50.914 [pool-1-thread-5] ERROR com.intuit.karate - classpath:Assignment/Features/task.feature:37
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 732, url: https://api.todoist.com/rest/v1/tasks/4896808301, response: 
+Not Found
+
+classpath:Assignment/Features/task.feature:37
+09:05:50.920 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:50.932 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:50.937 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://api.todoist.com/rest/v1/tasks/4896808301
+1 > Authorization: Bearer 723a87e9ff698dbea3aadb29de78b363f15c0abf
+1 > Host: api.todoist.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:50.937 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:05:51.045 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 835
+1 < 400
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 15
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:51 GMT
+1 < X-Content-Type-Options: nosniff
+1 < X-Cache: Error from cloudfront
+1 < Via: 1.1 299b62497e6a9b863789e84f15fc9512.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: PJp-Od19UDBCjiIBCV_Z6EOzz6FAxmajJwSndVRQakY-nxhM7ETYdQ==
+Item not found
+
+09:05:51.048 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 861
+1 < 200
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:51 GMT
+1 < X-Cache: Miss from cloudfront
+1 < Via: 1.1 3d1357ac8648a82549f274733b419e81.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: cpHdKEmp1OXegvNKzdOVGiWrQVoj7bQojKKdnFgUbdVkqtMP_vB3LA==
+[{"comment_count":1,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:05Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Add a new task ➕","url":"https:\/\/todoist.com\/showTask?id=4888802592","section_id":50796018,"project_id":2267090232,"due":{"date":"2021-06-07","string":"7 Jun","recurring":false},"id":4888802592,"order":2},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:05Z","assigner":0,"description":"","completed":false,"priority":1,"content":"This is a task. Drag it to the \"Doing\" section","url":"https:\/\/todoist.com\/showTask?id=4888802594","section_id":50796020,"project_id":2267090233,"id":4888802594,"order":1},{"comment_count":1,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:05Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Schedule this task 📅","url":"https:\/\/todoist.com\/showTask?id=4888802596","section_id":50796018,"project_id":2267090232,"id":4888802596,"order":3},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:05Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Switch between Board and List view from the three-dot project menu","url":"https:\/\/todoist.com\/showTask?id=4888802597","section_id":50796021,"project_id":2267090233,"id":4888802597,"order":1},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:05Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Add a \"Done\" section by pressing Add Section","url":"https:\/\/todoist.com\/showTask?id=4888802598","section_id":50796021,"project_id":2267090233,"id":4888802598,"order":2},{"comment_count":1,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:05Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Add a section from the project menu in the top right `...`","url":"https:\/\/todoist.com\/showTask?id=4888802600","section_id":50796018,"project_id":2267090232,"id":4888802600,"order":4},{"comment_count":1,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:06Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Click **+** next to Projects to add one of your own","url":"https:\/\/todoist.com\/showTask?id=4888802603","section_id":50796018,"project_id":2267090232,"id":4888802603,"order":5},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:06Z","assigner":0,"description":"","completed":false,"priority":1,"content":"[Kickstart your projects with Templates →](https:\/\/todoist.com\/templates?utm_source=todoist&utm_medium=in_app&utm_campaign=welcome_project)","url":"https:\/\/todoist.com\/showTask?id=4888802605","section_id":50796022,"project_id":2267090232,"id":4888802605,"order":1},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:06Z","assigner":0,"description":"","completed":false,"priority":1,"content":"[Learn how to use Todoist with the Guide →](https:\/\/todoist.com\/getting-started?utm_source=todoist&utm_medium=in_app&utm_campaign=welcome_project)","url":"https:\/\/todoist.com\/showTask?id=4888802607","section_id":50796022,"project_id":2267090232,"id":4888802607,"order":2},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:06Z","assigner":0,"description":"","completed":false,"priority":1,"content":"[Get organized anywhere with the Apps →](https:\/\/todoist.com\/downloads?focus=mobile&utm_source=todoist&utm_medium=in_app&utm_campaign=welcome_project)","url":"https:\/\/todoist.com\/showTask?id=4888802609","section_id":50796022,"project_id":2267090232,"id":4888802609,"order":3},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-07T04:57:06Z","assigner":0,"description":"","completed":false,"priority":1,"content":"[Questions? Need more tips? Visit the Help Center →](https:\/\/todoist.com\/help\/?utm_source=todoist&utm_medium=in_app&utm_campaign=welcome_project)","url":"https:\/\/todoist.com\/showTask?id=4888802612","section_id":50796022,"project_id":2267090232,"id":4888802612,"order":4},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-09T11:34:50Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Buy Milk","url":"https:\/\/todoist.com\/showTask?id=4896859343","section_id":0,"project_id":2267090232,"id":4896859343,"order":1},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-09T11:36:35Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Buy Milk","url":"https:\/\/todoist.com\/showTask?id=4896863508","section_id":0,"project_id":2267090232,"id":4896863508,"order":1},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-10T03:31:29Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Buy Milk","url":"https:\/\/todoist.com\/showTask?id=4898953960","section_id":0,"project_id":2267090232,"id":4898953960,"order":1},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-10T03:34:21Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Buy Milk","url":"https:\/\/todoist.com\/showTask?id=4898957185","section_id":0,"project_id":2267090232,"id":4898957185,"order":1},{"comment_count":0,"creator":34227667,"label_ids":[],"created":"2021-06-10T03:35:51Z","assigner":0,"description":"","completed":false,"priority":1,"content":"Buy Milk","url":"https:\/\/todoist.com\/showTask?id=4898958949","section_id":0,"project_id":2267090232,"id":4898958949,"order":1}]
+09:05:51.049 [pool-1-thread-2] ERROR com.intuit.karate - classpath:Assignment/Features/task.feature:50
+Then status 204
+status code was: 400, expected: 204, response time in milliseconds: 835, url: https://api.todoist.com/rest/v1/tasks/4896808301, response: 
+Item not found
+
+classpath:Assignment/Features/task.feature:50
+09:05:51.069 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+09:05:51.077 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+---------------------------------------------------------
+feature: classpath:Assignment/Features/project.feature
+scenarios:  4 | passed:  2 | failed:  2 | time: 4.4032
+---------------------------------------------------------
+
+09:05:51.089 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 4 (2 remaining) classpath:Assignment/Features/project.feature
+09:05:51.157 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 939
+1 < 204
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:51 GMT
+1 < X-Cache: Miss from cloudfront
+1 < Via: 1.1 549991143dcc2dc81f07c392b2502e04.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: K4LNqGTt1BHyuZtpRngoP8dkwUvOYJ3otLj6608EK3zjCJiOVjiYnw==
+
+09:05:51.234 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 296
+1 < 200
+1 < Date: Thu, 10 Jun 2021 03:35:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1622087662
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 8465
+1 < cf-request-id: 0a9596a8e00000de15bb311000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=Sk2hKo7Y9unxBY6AMk0oI7L2AhVOUp2iRTOXlOmg3N3ETBR7iNzw5nSR2PVsUxJ5SncbC%2BMhD8qrCQJvR0YlfQjrCjMbTNt6V18pHa8h3jNCiig8IlNY64ra75ujLVf92g05mXWzXlrNOw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 65cf8d549f07de15-BOM
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+09:05:51.265 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+2 > Accept-Encoding: gzip,deflate
+
+
+09:05:51.492 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 225
+2 < 200
+2 < Date: Thu, 10 Jun 2021 03:35:52 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1621483107
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 625
+2 < cf-request-id: 0a9596a9e10000de1166b23000000001
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=EbWQclycoGnoEZHXtaTEompRLOKfZnQPVW4udOusqs9vdvP%2BfqvQE%2BsvAN%2BdzK7kPQLgO8c6oL6%2B9lCZOHQXnhL4L7PU4q%2FlCfV5D%2FIFoky6Qz5fJkLUJamDidu2GSLKSLyhPwNaJL9axg%3D%3D"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 65cf8d563fadde11-BOM
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"}
+09:05:52.392 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1455
+1 < 404
+1 < Content-Type: text/plain; charset=utf-8
+1 < Content-Length: 10
+1 < Connection: keep-alive
+1 < Date: Thu, 10 Jun 2021 03:35:52 GMT
+1 < X-Content-Type-Options: nosniff
+1 < X-Cache: Error from cloudfront
+1 < Via: 1.1 5d33745305d74a633a532a9b09259451.cloudfront.net (CloudFront)
+1 < X-Amz-Cf-Pop: HYD50-C1
+1 < X-Amz-Cf-Id: OGc0kt9F7iMK1nltQNNucoLis7vxMFr5EOKjSw0uTiCH4IHOqSE6Dg==
+Not Found
+
+09:05:52.395 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1317
+1 < 201
+1 < Date: Thu, 10 Jun 2021 03:35:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1623296194
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0a9596a9320000de356e136000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=SvQPmA7QeBUXMzLycxLTto6XYN7noZSi%2B5P%2FtD%2FUeRCNdvplaHhgeVXUB54BAIvVObvjz7ClTFN2lcvcDCfVC5EceDh62UUrFAcOpjai598yWSDZPxwQE2PmzO9SL8MuJM4mQ9JRbsrtHA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 65cf8d551ff6de35-BOM
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+09:05:52.397 [pool-1-thread-5] ERROR com.intuit.karate - classpath:Assignment/Features/task.feature:63
+Then match response == 'Empty Token'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Not Found
+'
+  'Empty Token'
+
+classpath:Assignment/Features/task.feature:63
+09:05:52.400 [pool-1-thread-2] INFO  com.intuit.karate - [print] created id is:  11 
+---------------------------------------------------------
+feature: classpath:Assignment/Features/task.feature
+scenarios:  6 | passed:  3 | failed:  3 | time: 5.6438
+---------------------------------------------------------
+
+09:05:52.523 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 4 (1 remaining) classpath:Assignment/Features/task.feature
+---------------------------------------------------------
+feature: classpath:Assignment/users/users.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 1.8959
+---------------------------------------------------------
+
+09:05:52.589 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 4 (0 remaining) classpath:Assignment/users/users.feature
+Karate version: 1.0.1
+======================================================
+elapsed:   6.72 | threads:    5 | thread time: 21.69 
+features:     4 | skipped:    0 | efficiency: 0.65
+scenarios:   18 | passed:    10 | failed: 8
+======================================================
+>>> failed features:
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  'Content-Type'
+
+classpath:Assignment/Features/project.feature:11
+status code was: 400, expected: 200, response time in milliseconds: 1059, url: https://api.todoist.com/rest/v1/projects, response: 
+Maximum number of projects per user limit reached
+
+classpath:Assignment/Features/project.feature:22
+status code was: 404, expected: 200, response time in milliseconds: 732, url: https://api.todoist.com/rest/v1/tasks/4896808301, response: 
+Not Found
+
+classpath:Assignment/Features/task.feature:37
+status code was: 400, expected: 204, response time in milliseconds: 835, url: https://api.todoist.com/rest/v1/tasks/4896808301, response: 
+Item not found
+
+classpath:Assignment/Features/task.feature:50
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Not Found
+'
+  'Empty Token'
+
+classpath:Assignment/Features/task.feature:63
+status code was: 404, expected: 200, response time in milliseconds: 1425, url: https://api.todoist.com/rest/v1/sections/51193534, response: 
+Not Found
+
+classpath:Assignment/Features/Section.feature:16
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  '404 page not found
+'
+  'Not Found'
+
+classpath:Assignment/Features/Section.feature:23
+status code was: 204, expected: 404, response time in milliseconds: 1071, url: https://api.todoist.com/rest/v1/sections/51193534, response: 
+
+classpath:Assignment/Features/Section.feature:47
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.0.1
+file:///home/masrg/Documents/karate/karateAssignment/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>
